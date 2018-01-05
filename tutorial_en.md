@@ -5,7 +5,7 @@
 
 The Vampire 500 V2+ accelerator card doesn't provide network ports, but you can build an SDNet device, which connects to the micro sd and solves that handicap.
 
-This text is not exactly a tutorial. It's more like a report of how I assembled my SDNet device. So, the steps I describe here should work with the hardware and software I used but if you use other stuff, this might not work exactly as described.
+This text is not exactly a tutorial. It's more like a report of how I assembled my SDNet device. So, the steps I describe here should work with the hardware and software I used but if you use other stuff, this might not work exactly as described. You should always read the README file inside the sdnet0.8.lha archive (download from [aminet](http://aminet.net/)).
 
 This document (and images) is under a Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. That means you can share and adapt it anyway you want as long as you give the appropriate credits to the author and distribute your contributions under the same license.
 
@@ -21,7 +21,7 @@ ApolloOS includes all software you should need: sdnet driver and Roadshow TCP/IP
 
 The version of Roadshow that comes with ApolloOS is a demo version. It works for a few minutes and then shuts down. You can [buy the full version](http://roadshow.apc-tcp.de/index-en.php) if you want.
 
-This is the Arananet SDNet adapter I used:
+This is the Arananet SDNet adapter I used. It already has a resistor on the lower side so you don't have to add one yourself.
 
 ![Arananet SDNet adapter](images/sdnet_adapter.jpg)
 
