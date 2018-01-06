@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The Vampire 500 V2+ accelerator card doesn't provide network ports, but you can build an SDNet device, which connects to the micro sd and solves that handicap.
+The Vampire 500 V2+ accelerator card doesn't provide network ports, but you can build an SDNet device, which connects to the micro SD slot and solves that handicap.
 
 This text is not exactly a tutorial. It's more like a report of how I assembled my SDNet device. So, the steps I describe here should work with the hardware and software I used but if you use other stuff, this might not work exactly as described. You should always read the README file inside the sdnet0.8.lha archive (download from [aminet](http://aminet.net/)).
 
@@ -113,5 +113,5 @@ or simply double click on the SDNet icon inside `DEVS:NetInterfaces` drawer.
 
 **Author:** Tiago Epifânio
 
-**License (all text and documents):** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+**License (all text and images):** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
