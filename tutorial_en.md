@@ -9,7 +9,7 @@ This text is not exactly a tutorial. It's more like a report of how I assembled 
 
 This document (and images) is under a Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. That means you can share and adapt it anyway you want as long as you give the appropriate credits to the author and distribute your contributions under the same license.
 
-## Requirements
+## Hardware and Software I used
 - Amiga 500
 - Vampire 500 V2+ accelerator card (with Gold 2.5 or better)
 - 32GB CF Card with ApolloOS installed (version R43+)
@@ -72,6 +72,8 @@ After connecting all the wires, plug the sdnet adapter into the micro sd slot of
 
 ## Step 3
 
+Having networking enabled all the time can lead to some troubles with other software (e.g. whdload) so we usually don't want it to start automatically on startup.
+
 Edit `S:startup-sequence` file and comment these lines that should be near the end (put the semicolon at the beginning of each line):
 
         ;If EXISTS S:Network-Startup
@@ -94,7 +96,7 @@ Make sure you have the `sdnet.device` file in drawer `DEVS:Networks`.
 Reboot your Amiga
 
 ## Step 7  (OPTIONAL - testing the sdnet)
-- download sdnet0.8.lha from aminet and copy it into your CF card (use WinUAE to do that)
+- download [sdnet0.8.lha](http://www.apollo-accelerators.com/files/sdnet0.8.lha) and copy it into your CF card (use WinUAE to do that)
 - extract contents of that file (suggestion: use Dopus)
 - open a CLI window and execute the `sdnettest` binary
 
